@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://kit.fontawesome.com/57e037e006.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="img/3665909.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Rubik:wght@300&display=swap" rel="stylesheet">
+
+    <title>André Pillihuaman | FrontEnd Dev</title>
+</head>
+<body>
+    <div class="contenedor-header">
+     <header>
+        <div class="logo">
+            <a href="#" class="enlace">Andre/></a>
+        </div>
+        <nav class="nav" id="nav">
+            <ul>
+              <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+              <li><a href="#sobremi" onclick="seleccionar()">Sobre Mí</a></li>
+              <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+              <li><a href="#portafolio" onclick="seleccionar()">Proyectos</a></li>
+              <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
+        </ul>
+    </nav>
+    <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+ </header>
+</div>
+<!--Presentación-->
+<div class="face" id="inicio">
+                <img src="img/portfolio.png" alt="">
+            <div class="text">
+                <h1>Hi!</h1>
+                <p> I'm André Pillihuaman</p>
+                <h2>Frontend Developer</h2>
+            </div>
+    
+            <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-3.10,45.89 C150.39,175.17 315.18,-32.05 503.10,95.23 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #243852;"></path></svg></div>
+            </div>
+      <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Estudiante de Ingeniería de Sistemas</span> adquiriendo conocimientos sobre Diseño Web desde 2020. Considero que mi mayor fortaleza es la creatividad, ya que de la mano con un detallado análisis se puede llevar a cabo exitosos proyectos, siempre estoy pendiente al aprendizaje de nuevas técnologias para agrandar mi conocimiento en este ámbito que me apasiona.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños:</strong>
+                            26-02
+                        </li>
+                        <li>
+                            <strong>Teléfono:</strong>
+                            931 561 797
+                        </li>
+                        <li>
+                            <strong>Correo:</strong>
+                            aphuachaca@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            VMT Lima, Perú
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FRONTEND DEV</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-code"></i>
+                            <span>PROGRAMAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-globe"></i>
+                            <span>IDIOMAS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headset"></i>
+                            <span>STREAMING</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-dumbbell"></i>
+                            <span>EJERCICIO</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-object-group"></i>
+                            <span>DISEÑAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-chalkboard"></i>
+                            <span>LIDERAZGO</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+            <div class="wave-2" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 50%; width: 100%;"><path d="M-3.10,45.89 C150.39,175.17 315.18,-32.05 503.10,95.23 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+            </div>
+        </div>
+    </section>
+                <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>92%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>MySQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wave-2" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 50%; width: 100%;"><path d="M-3.10,45.89 C150.39,175.17 315.18,-32.05 503.10,95.23 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #243852;"></path></svg></div>
+        </div>
+    </section>
+    <!-- SECCION PROYECTOS -->
+    <section id="portafolio" class="portafolio">
+        <div class="contenido-seccion">
+            <h2>PROYECTOS</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/mochileros.png" alt="">
+                    <div class="overlay">
+                        <h3>StartUp | Mochileros</h3>
+                        <p>El análisis de este proyecto fue con conocimientos de Inteligencia de Negocios y formúlas económicas.</p>
+                        <a href="https://github.com/EasyFullCode/Mochileros.git" target="_blank">Ir a repositorio</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/safari.png" alt="">
+                    <div class="overlay">
+                        <h3>Proyecto Safari</h3>
+                        <p>Proyecto propio, fue elaborado para simular un Zoo pero que brinda una experiencia más completa y no se limita solo a mostrar a los animales, sino que el público aprenda datos pocos conocidos.</p>
+                        <a href="https://github.com/EasyFullCode/Proyecto-Safari.git" target="_blank">Ir a repositorio</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/cleanface.jpg" alt="">
+                    <div class="overlay">
+                        <h3>CleanFace | BarberShop</h3>
+                        <p>E-commerce desarrollado para la práctica de Javascript, implementando un carrito de compras.</p>
+                        <a href="https://github.com/EasyFullCode/CleanFace.git" target="_blank">Ir a repositorio</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/michii.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Proyecto Innovador</h3>
+                        <p>IA-Python</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/safarii.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Propio</h3>
+                        <p>Safari</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/restaurant.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Propio</h3>
+                        <p>Restaurante</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wave-2" style="height: 120px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 50%; width: 100%;"><path d="M-3.10,45.89 C150.39,175.17 315.18,-32.05 503.10,95.23 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer id="contacto">
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <h1>Contáctame, siempre atento a su mensaje!</h1>
+        <div class="redes">
+            <a href="https://www.facebook.com/AndreMiguel26/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://twitter.com/aphuachaca" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/andremiguel841/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/andré-pillihuaman" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=931561797" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </footer>
+     <script src="index.js" ></script>
+</body>
+</html>
