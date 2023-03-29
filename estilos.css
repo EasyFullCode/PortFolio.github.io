@@ -572,12 +572,12 @@ footer .arriba{
     color: var(--color-primario)
     
 }
-footer .despedida-footer{
+/* footer .despedida-footer{
     color: #fff
 }
 footer .despedida-footer span{
     color: var(--color-primario);
-}
+} */
 @media screen and (max-width:980px) {
 
     nav{
@@ -674,6 +674,6 @@ footer .despedida-footer span{
 }
 @media screen and (max-width: 365px) {
     .wave{
-        margin-bottom: -32px;
+        margin-bottom: -24px;
     }
 }
