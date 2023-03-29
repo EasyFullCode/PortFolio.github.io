@@ -126,7 +126,7 @@ body{
 }
 .wave{
     width: 100%;
-    bottom: 92px;
+    bottom: 78px;
     left: 0;
     position:absolute;
 }
@@ -572,12 +572,12 @@ footer .arriba{
     color: var(--color-primario)
     
 }
-/* footer .despedida-footer{
+footer .despedida-footer{
     color: #fff
 }
 footer .despedida-footer span{
     color: var(--color-primario);
-} */
+} 
 @media screen and (max-width:980px) {
 
     nav{
@@ -632,7 +632,7 @@ footer .despedida-footer span{
         right: 54px;
     }
     .wave{
-        margin-bottom: 32px;
+        margin-bottom: 28px;
     }
     .sobremi .fila{
         display: block;
@@ -669,7 +669,7 @@ footer .despedida-footer span{
 }
 @media screen and (max-width:630px) {
     .wave{
-        margin-bottom: 32px;
+        margin-bottom: 14px;
     }
 }
 @media screen and (max-width: 365px) {
