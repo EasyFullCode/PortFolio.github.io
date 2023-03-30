@@ -664,8 +664,4 @@ footer .despedida-footer span{
         width: 100%;
     }
 }
-@media screen and (max-width: 450px) {
-    .wave{
-        margin-bottom: 35px;
-    }
-}
+
