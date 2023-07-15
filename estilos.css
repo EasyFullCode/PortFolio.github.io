@@ -126,7 +126,7 @@ body{
 }
 .wave{
     width: 100%;
-    bottom: 132px;
+    bottom: 124px;
     left: 0;
     position:absolute;
 }
@@ -627,6 +627,9 @@ footer .despedida-footer span{
 }
 @media screen and (max-width: 768px){
     
+    .wave{
+        bottom: 112px;
+    }
     .face img{
         right: 48px;
         top: -18px;
