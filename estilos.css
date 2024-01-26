@@ -78,7 +78,7 @@ body{
     height: 80vh;
 }
 .face img{
-    height: 250px;
+    width: 180px;
     position: relative;
     right: 250px;
     top: 50px;
@@ -87,7 +87,7 @@ body{
 
 .text{
     position: relative;
-    bottom: 140px;
+    bottom: 110px;
     margin-left: 150px;
 
 }
@@ -638,7 +638,7 @@ footer .despedida-footer span{
         display: block;
     }
     .text{
-        top: -52px;
+        top: -24px;
         right: 54px;
     }
     .sobremi .fila{
