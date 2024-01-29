@@ -16,6 +16,29 @@ function seleccionar(){
     document.getElementById("nav").classList = "";
     menuVisible = false;
 }
+
+//Efecto escritura
+
+const typed = new Typed('.typed',{
+    strings: [
+        'Diseñador UX/UI',
+        'Frontend Developer'],
+
+    typeSpeed: 75,
+    startDelay: 300,
+    backSpeed: 75,
+    shuffle: false,
+    backDelay: 2000,
+    loop: true,
+    loopCount: 2,
+    showCursor: true,
+    cursorChar: '|',
+    contentType: 'html',
+});
+
+
+
+
 function efectoHabilidades(){
     var skills = document.getElementById("skills");
     var distancia_skills = window.innerHeight - skills.getBoundingClientRect().top;
@@ -39,4 +62,10 @@ function efectoHabilidades(){
 window.onscroll = function(){
     efectoHabilidades();
 } 
+
+//Animación de galería
+AOS.init({
+    duration: 1000,
+    once: true
+});
 

@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="estilos.css">
     <script src="https://kit.fontawesome.com/57e037e006.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="shortcut icon" href="img/3665909.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Rubik:wght@300&display=swap" rel="stylesheet">
 
     <title>André Pillihuaman | FrontEnd Dev</title>
@@ -16,7 +17,7 @@
     <div class="contenedor-header">
      <header>
         <div class="logo">
-            <a href="#" class="enlace">Andre/></a>
+            <img src="img/logo.jpg">
         </div>
         <nav class="nav" id="nav">
             <ul>
@@ -27,6 +28,16 @@
               <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
         </ul>
     </nav>
+    <!--<div class="translate">
+        <a href="#" id="idioma" class="idioma">
+            <img src="" alt="Icono Bandera">
+            <i class="fa-solid fa-chevron-down"></i>
+        </a>
+        <ul id="idiomas" class="idiomas">
+                <li><a href="#"><img src="img/pe.svg" alt="Icono Bandera"></a></li>
+                <li><a href="#"><img src="img/um.svg" alt="Icono Bandera"></a></li>
+        </ul>
+    </div>-->
     <div class="nav-responsive" onclick="mostrarOcultarMenu()">
         <i class="fa-solid fa-bars"></i>
     </div>
@@ -35,10 +46,12 @@
 <!--Presentación-->
 <div class="face" id="inicio">
                 <img src="img/photo_carnet.png" alt="Andre Pillihuaman">
-            <div class="text">
+            <div class="text" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
                 <h1>Hola!</h1>
                 <p> Soy André Pillihuaman</p>
-                <h2>Frontend Developer</h2>
+                <h2><span class="typed"></span></h2>
             </div>
     
             <div class="wave" style="height: 185px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-3.10,45.89 C150.39,175.17 315.18,-32.05 503.10,95.23 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #243852 ;"></path></svg></div>
@@ -220,7 +233,8 @@
         <div class="contenido-seccion">
             <h2>PROYECTOS</h2>
             <div class="galeria">
-                <div class="proyecto">
+                <div class="proyecto" data-aos="fade-up"
+                data-aos-duration="3500">
                     <img src="img/mochileros.webp" alt="Desarrollo Web">
                     <div class="overlay">
                         <h3>StartUp | Mochileros</h3>
@@ -228,15 +242,17 @@
                         <a href="https://github.com/EasyFullCode/StartUp-Mochileros.git" target="_blank">Ir a repositorio</a>
                     </div>
                 </div>
-                <div class="proyecto">
+                <div class="proyecto" data-aos="fade-up"
+                data-aos-duration="3500">
                     <img src="img/safari.webp" alt="Diseño Web">
                     <div class="overlay">
                         <h3>Proyecto Safari</h3>
-                        <p>Proyecto propio, fue elaborado para simular un Zoo pero que brinda una experiencia más completa y no se limita solo a mostrar a los animales, sino que el público aprenda datos pocos conocidos.</p>
+                        <p>Primer proyecto elaborado, simula un zoo con diferentes secciones. </p>
                         <a href="https://github.com/EasyFullCode/Proyecto-Safari.git" target="_blank">Ir a repositorio</a>
                     </div>
                 </div>
-                <div class="proyecto">
+                <div class="proyecto" data-aos="fade-up"
+                data-aos-duration="3500">
                     <img src="img/cleanface.webp" alt="Desarrollo Web">
                     <div class="overlay">
                         <h3>CleanFace | BarberShop</h3>
@@ -244,7 +260,8 @@
                         <a href="https://github.com/EasyFullCode/CleanFace.git" target="_blank">Ir a repositorio</a>
                     </div>
                 </div>
-                <div class="proyecto">
+                <div class="proyecto" data-aos="fade-up"
+                data-aos-duration="3200">
                     <img src="img/michii.webp" alt="Diseño Web">
                     <div class="overlay">
                         <h3>Juego Tic Tac Toe</h3>
@@ -252,7 +269,8 @@
                         <a href="https://github.com/EasyFullCode/Juego-Michi.git" target="_blank">Ir a repositorio</a>
                     </div>
                 </div>
-                <div class="proyecto">
+                <div class="proyecto" data-aos="fade-up"
+                data-aos-duration="3200">
                     <img src="img/chat.webp" alt="Desarrollo Web">
                     <div class="overlay">
                         <h3>Chat Empresarial</h3>
@@ -260,7 +278,8 @@
                         <a href="https://github.com/EasyFullCode/Chat-Empresarial" target="_blank">Ir a repositorio</a>
                     </div>
                 </div>
-                <div class="proyecto">
+                <div class="proyecto" data-aos="fade-up"
+                data-aos-duration="3200">
                     <img src="img/Inicio.webp" alt="Diseño Web">
                     <div class="overlay">
                         <h3>E-commerce D'Todo</h3>
@@ -287,7 +306,7 @@
                     <input class="enviar" type="submit" value="Enviar Mensaje">
                 </form>
                 <div class="col">
-                    <img src="img/profile-pic (5).png" alt="Andre Pillihuaman">
+                    <img src="img/sectionContact.webp" alt="Andre Pillihuaman">
                 </div>
             </div>
         </div>
@@ -306,9 +325,11 @@
             <a href="https://api.whatsapp.com/send?phone=931561797" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
         </div>
      <div class="despedida-footer">
-            <h3>© Diseñado con dedicación por <span>André Pillihuaman</span> | 2023</h3>
+            <h3>© Diseñado con dedicación por <span>André Pillihuaman</span> | 2024</h3>
         </div> 
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
      <script src="index.js" ></script>
 </body>
 </html>

@@ -35,11 +35,10 @@ body{
    padding: 15px 20px;
 }
 
-.contenedor-header header .logo a{
-    font-family: 'Dancing Script', cursive;
-    font-size: 32px;
-    color: var(--color-primario);
-    text-decoration: none;
+.contenedor-header header .logo img{
+    width: 42px;
+    border-radius: 50%;
+    box-shadow: 2px 4px rgba(0, 0, 0, .5);
     
 }
 .contenedor-header header ul{
@@ -60,13 +59,48 @@ body{
     color: var(--color-primario);
 }
 
+/*.translate > ul{
+    padding-left: 0;
+    list-style: none;
+}
+.translate > a{
+    text-decoration: none;
+}
+.translate > img{
+    width: 15px;
+    height: 15px;
+}
+.translate .idioma{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid rgb(219, 219, 219);
+    position: relative;
+}
+.translate .idioma:hover{
+    background-color: rgb(228, 228, 228);
+}
+.translate .idiomas{
+    position: absolute;
+    top: 35px;
+    display: flex;
+    flex-direction: column;
+}
+.idiomas li{
+    width: 100%;
+}
+.idiomas li a{
+    display: block;
+    padding: 10px;
+    font-size: 10px;
+    color: rgb(85, 85, 85);
+}*/
 .nav-responsive{
     background-color: var(--color-secundario);
     color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
-
     display: none;
 }
  
@@ -86,22 +120,25 @@ body{
 }
 
 .text{
+    width: 320px;
     position: relative;
     bottom: 110px;
     margin-left: 150px;
 
 }
 .text p{
+    margin-top: 4px;
     color: var(--color-primario);
     font-weight: bold;
     font-size: 24px;
 }
 .text h1{
-    font-size: 44px;
+    font-size: 36px;
 }
 .text h2{
-    font-size: 34px;
-    border-right: .15em solid var(--color-primario);
+    margin-top: 4px;
+    font-size: 26px;
+    /*border-right: .15em solid var(--color-primario);
     width: 0;
     overflow: hidden;
     white-space: nowrap;
@@ -119,7 +156,7 @@ body{
     }
     to{
         width: 100%;
-    }
+    }*/
 }
 .text h1, h2{
     color: var(--color-secundario);
@@ -628,7 +665,7 @@ footer .despedida-footer span{
 @media screen and (max-width: 768px){
     
     .wave{
-        bottom: 104px;
+        bottom: 82px;
     }
     .face img{
         right: 8px;
