@@ -21,7 +21,7 @@ function seleccionar(){
 const typed = new Typed('.typed',{
     strings: [
         'Diseñador UX/UI',
-        'Product Designer',
+        'Desarrollador Web',
         'Ingeniero de Sistemas'],
 
     typeSpeed: 75,
